@@ -17,7 +17,7 @@ int main(int argc, char* argv[]) {
 
   signal(SIGTERM, SIG_IGN);
 
-  signal(SIGABRT, SIG_IGN);
+  signal(SIGINT, SIG_IGN);
 
 
   while (true)
